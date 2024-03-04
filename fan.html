@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fan</title>
+    <link rel="stylesheet" href="fan.css" />
+  </head>
+  <body>
+    <div class="table_fan">
+      <h1>Fan</h1>
+      <div class="fan">
+        <img
+          src="http://clipart-library.com/image_gallery/n1297451.png"
+          alt=""
+        />
+      </div>
+      <div class="buttons flex">
+        <div class="fan-on">
+          <h6 onclick="fan_on()">ON</h6>
+        </div>
+        <div class="fan-off">
+          <h6 onclick="fan_off()">OFF</h6>
+        </div>
+      </div>
+      <div class="speed" id="speed">
+        <ul class="flex">
+          <li onclick="fan_1()">1</li>
+          <li onclick="fan_2()">2</li>
+          <li onclick="fan_3()">3</li>
+          <li onclick="fan_4()">4</li>
+          <li onclick="fan_5()">5</li>
+        </ul>
+      </div>
+    </div>
+    <script src="fan.js"></script>
+  </body>
+</html>
